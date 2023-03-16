@@ -16,9 +16,9 @@ export const UserList = () => {
                         <img src={user.picture.thumbnail} alt="user" className="img" />
                     </div>
                     <div className="userInfo">
-                        <p>Name: {user.name.first}</p>
-                        <p>Email {user.email} </p>
-                        <p>Date of birth: {new Date(user.dob.date).toLocaleDateString()} </p>
+                        <p>name: {user.name.first}</p>
+                        <p>email: {user.email} </p>
+                        <p>date of birth: {new Date(user.dob.date).toLocaleDateString()} </p>
                     </div>
                 </div>
             ))
