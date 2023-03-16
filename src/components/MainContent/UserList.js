@@ -6,7 +6,7 @@ import UserData from "./UserData";
 export const UserList = () => {
     const [users] = useState(UserData);
 
-    const randomUsers = users.sort(() => 0.5 - Math.random()).slice(0, 10);
+    const randomUsers = users.sort(() => 0.5 - Math.random()).slice(0, 9);
 
     return (
         <div className="container">
