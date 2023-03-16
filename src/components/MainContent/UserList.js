@@ -12,7 +12,9 @@ export const UserList = () => {
         <div className="container">
             {randomUsers.map(user => (
                 <div key={user.email} className="userProfile">
-                    <img src={user.picture.medium} alt="user" />
+                    <div>
+                        <img src={user.picture.thumbnail} alt="user" className="img" />
+                    </div>
                     <div className="userInfo">
                         <p>Name: {user.name.first}</p>
                         <p>Email {user.email} </p>

@@ -1,0 +1,17 @@
+.img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.userProfile {
+    border: 1px solid rgb(199, 196, 196);
+    padding-left: 10px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    padding: 10px;
+}
